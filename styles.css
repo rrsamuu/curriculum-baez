@@ -1,0 +1,212 @@
+*{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container__curriculum {
+  border: 3px solid black;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.header {
+  /* border: 3px solid black; */
+  /* position: relative; */
+}
+
+.header .rectangle {
+  /* border: 3px solid blue; */
+  /* rgba(221, 231, 235, 1) */
+  /* #00bcd4 */
+  background-image: linear-gradient(rgba(221, 231, 235, 1) 50%, white 50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rectangle .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.rectangle img {
+  margin-top: 1em;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.rectangle .name,
+.rectangle .job {
+  text-transform: uppercase;
+  margin: 5px auto;
+}
+
+.rectangle .name {
+  font-size: 25px;
+}
+
+.rectangle .job {
+  font-size: 20px;
+}
+
+.line__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.5em;
+}
+
+.line__container .line {
+  border: 2px solid black;
+  width: 35%;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.item__left {
+  /* border: 3px solid lightblue; */
+  border-right: 1px solid black;
+  width: 50%;
+  left: 0;
+}
+
+.item__right {
+  /* border: 3px solid lightcoral; */
+  border-left: 1px solid black;
+  width: 50%;
+  right: 0;
+}
+
+.item__perfil,
+.item__skills,
+.item__language {
+  /* border: 3px solid khaki; */
+  border-bottom: 2px solid black;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.title__perfil,
+.title__skills {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-left: 1em;
+}
+
+.item__perfil .paragraph__perfil {
+  font-size: 17px;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
+}
+
+.item__skills .title__skills,
+.item__language .title__language,
+.item__education .title__education,
+.item__experience .title__experience {
+  padding-top: 1em;
+}
+
+.item__skills .paragraph__skills,
+.item__language .paragraph__language {
+  font-size: 17px;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
+}
+
+.item__language .title__language {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-left: 1em;
+}
+
+.item__education .title__education {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-left: 1em;
+}
+
+ul > li {
+  padding: 0.15em;
+}
+
+.education__one,
+.education__two {
+  /* border: 3px solid maroon;  */
+  padding-left: 1.5em;
+  margin-top: 0.4em;
+  font-size: 17px;
+}
+
+.paper__educaction {
+  font-weight: bolder;
+}
+
+.item__contact {
+  /* border: 3px solid lightgreen; */
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.item__contact > a {
+  padding: 5px;
+  margin-left: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.item__contact > a:last-child {
+  margin-bottom: 1em;
+}
+
+.item__contact a > i {
+  margin-right: 10px;
+}
+
+.item__contact {
+  /* border: 3px solid lightskyblue; */
+  border-bottom: 2px solid black;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.item__experience .title__experience {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.item__experience .experience__one,
+.item__experience .experience__two,
+.item__experience .experience__three {
+  /* border: 3px solid red; */
+  font-size: 17px;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
+}
+
+.many__experience {
+  /* border: 3px solid firebrick; */
+}
+
+.item__experience .place__experience,
+.item__experience .date__experience {
+  font-weight: bolder;
+}
